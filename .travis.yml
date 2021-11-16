@@ -15,7 +15,7 @@ deploy:
   application: "docker-reeact"
   env: "Dockerreeact-env"
   bucket_name: "elasticbeanstalk-us-east-2-853722739457"
-  bucket_path: "docker-react"
+  bucket_path: "docker-reeact"
   on:
     branch: main
   access_key_id: $AWS_ACCESS_KEY
